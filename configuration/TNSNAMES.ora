@@ -1,0 +1,15 @@
+
+####################################
+# Desarrollo                       #
+####################################
+
+SID1DES =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = desbdneg.condis.es)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = SID1DES)
+      (SERVER = DEDICATED)
+    )
+  )
